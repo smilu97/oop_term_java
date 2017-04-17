@@ -7,6 +7,11 @@ public class Person {
 	String nickname;
 	String phoneNumber;
 	Date recent;
+	
+	public Person(String nickname_, String phoneNumber_) {
+		nickname = nickname_;
+		phoneNumber = phoneNumber_;
+	}
 	public Integer getId() {
 		return id;
 	}
