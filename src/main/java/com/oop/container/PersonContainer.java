@@ -96,7 +96,7 @@ public class PersonContainer {
 				break;
 			}
 		}
-		item.setRecent(newRecent);;
+		item.setRecent(newRecent);
 		keyRecent.put(newRecent, item);
 	}
 	public NavigableSet<Person> findByNickname(String _nickname) {
