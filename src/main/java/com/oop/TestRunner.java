@@ -7,6 +7,9 @@ public class TestRunner {
 		Tester tester = new Tester();
 		tester.test1();
 		tester.test2();
-		
+		tester.test5();
+		tester.test6();
+		tester.test7();
+		tester.test8();
 	}
 }
