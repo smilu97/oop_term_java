@@ -1,0 +1,170 @@
+TEST1 Start**********************************************************
+TEST2 Start**********************************************************
+{"phoneNumber":"01012341230","nickname":"PERSON0","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341231","nickname":"PERSON1","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412310","nickname":"PERSON10","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412311","nickname":"PERSON11","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412312","nickname":"PERSON12","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412313","nickname":"PERSON13","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412314","nickname":"PERSON14","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412315","nickname":"PERSON15","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412316","nickname":"PERSON16","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412317","nickname":"PERSON17","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412318","nickname":"PERSON18","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412319","nickname":"PERSON19","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341232","nickname":"PERSON2","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341233","nickname":"PERSON3","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341234","nickname":"PERSON4","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341235","nickname":"PERSON5","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341236","nickname":"PERSON6","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341237","nickname":"PERSON7","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341238","nickname":"PERSON8","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341239","nickname":"PERSON9","recent":"Tue Apr 18 14:07:33 KST 2017"}
+TEST3 Start**********************************************************
+{"phoneNumber":"01012341230","nickname":"PERSON0","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341231","nickname":"PERSON1","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412310","nickname":"PERSON10","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412311","nickname":"PERSON11","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412312","nickname":"PERSON12","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412313","nickname":"PERSON13","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412314","nickname":"PERSON14","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412315","nickname":"PERSON15","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412316","nickname":"PERSON16","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412317","nickname":"PERSON17","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412318","nickname":"PERSON18","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412319","nickname":"PERSON19","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341232","nickname":"PERSON2","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412320","nickname":"PERSON20","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412321","nickname":"PERSON21","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412322","nickname":"PERSON22","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412323","nickname":"PERSON23","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412324","nickname":"PERSON24","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412325","nickname":"PERSON25","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412326","nickname":"PERSON26","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412327","nickname":"PERSON27","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412328","nickname":"PERSON28","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"010123412329","nickname":"PERSON29","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341233","nickname":"PERSON3","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341234","nickname":"PERSON4","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341235","nickname":"PERSON5","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341236","nickname":"PERSON6","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341237","nickname":"PERSON7","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341238","nickname":"PERSON8","recent":"Tue Apr 18 14:07:33 KST 2017"}
+{"phoneNumber":"01012341239","nickname":"PERSON9","recent":"Tue Apr 18 14:07:33 KST 2017"}
+TEST4 Start**********************************************************
+modifyTest.json 파일을 수정하고 Enter를 눌러서 계속하세요
+
+{"phoneNumber":"01012341230","nickname":"PERSON0","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341231","nickname":"PERSON1","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412310","nickname":"PERSON10","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412311","nickname":"PERSON11","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412312","nickname":"PERSON12","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412313","nickname":"PERSON13","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412314","nickname":"PERSON14","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412315","nickname":"PERSON15","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412316","nickname":"PERSON16","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412317","nickname":"PERSON17","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412318","nickname":"PERSON18","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412319","nickname":"PERSON19","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341232","nickname":"PERSON2","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412320","nickname":"PERSON20","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412321","nickname":"PERSON21","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412322","nickname":"PERSON22","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412323","nickname":"PERSON23","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412324","nickname":"PERSON24","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412325","nickname":"PERSON25","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412326","nickname":"PERSON26","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412327","nickname":"PERSON27","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412328","nickname":"PERSON28","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"010123412329","nickname":"PERSON29","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341233","nickname":"PERSON3","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341234","nickname":"PERSON4","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341235","nickname":"PERSON5","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341236","nickname":"PERSON6","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341237","nickname":"PERSON7","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341238","nickname":"PERSON8","recent":"Tue Apr 18 14:07:47 KST 2017"}
+{"phoneNumber":"01012341239","nickname":"PERSON9","recent":"Tue Apr 18 14:07:47 KST 2017"}
+TEST5 Start**********************************************************
+targetName:
+
+results:
+Not found result
+TEST6 Start**********************************************************
+targetPhoneNumber:
+
+results:
+Not found result
+TEST7 Start**********************************************************
+{"fromNumber":"01012342340","toNumber":"01012349876","content":"This is message of 0"}
+{"fromNumber":"01012342341","toNumber":"01012349876","content":"This is message of 1"}
+{"fromNumber":"01012342342","toNumber":"01012349876","content":"This is message of 2"}
+{"fromNumber":"01012342343","toNumber":"01012349876","content":"This is message of 3"}
+{"fromNumber":"01012342344","toNumber":"01012349876","content":"This is message of 4"}
+{"fromNumber":"01012342345","toNumber":"01012349876","content":"This is message of 5"}
+{"fromNumber":"01012342346","toNumber":"01012349876","content":"This is message of 6"}
+{"fromNumber":"01012342347","toNumber":"01012349876","content":"This is message of 7"}
+{"fromNumber":"01012342348","toNumber":"01012349876","content":"This is message of 8"}
+{"fromNumber":"01012342349","toNumber":"01012349876","content":"This is message of 9"}
+{"fromNumber":"010123423410","toNumber":"01012349876","content":"This is message of 10"}
+{"fromNumber":"010123423411","toNumber":"01012349876","content":"This is message of 11"}
+{"fromNumber":"010123423412","toNumber":"01012349876","content":"This is message of 12"}
+{"fromNumber":"010123423413","toNumber":"01012349876","content":"This is message of 13"}
+{"fromNumber":"010123423414","toNumber":"01012349876","content":"This is message of 14"}
+{"fromNumber":"010123423415","toNumber":"01012349876","content":"This is message of 15"}
+{"fromNumber":"010123423416","toNumber":"01012349876","content":"This is message of 16"}
+{"fromNumber":"010123423417","toNumber":"01012349876","content":"This is message of 17"}
+{"fromNumber":"010123423418","toNumber":"01012349876","content":"This is message of 18"}
+{"fromNumber":"010123423419","toNumber":"01012349876","content":"This is message of 19"}
+TEST8 Start**********************************************************
+전화가 01012341230로 부터 왔습니다
+PERSON0으로 부터 왔습니다
+전화가 01012341231로 부터 왔습니다
+PERSON1으로 부터 왔습니다
+전화가 01012341232로 부터 왔습니다
+PERSON2으로 부터 왔습니다
+전화가 01012341233로 부터 왔습니다
+PERSON3으로 부터 왔습니다
+전화가 01012341234로 부터 왔습니다
+PERSON4으로 부터 왔습니다
+전화가 01012341235로 부터 왔습니다
+PERSON5으로 부터 왔습니다
+전화가 01012341236로 부터 왔습니다
+PERSON6으로 부터 왔습니다
+전화가 01012341237로 부터 왔습니다
+PERSON7으로 부터 왔습니다
+전화가 01012341238로 부터 왔습니다
+PERSON8으로 부터 왔습니다
+전화가 01012341239로 부터 왔습니다
+PERSON9으로 부터 왔습니다
+전화가 01912341230로 부터 왔습니다
+전화가 01912341231로 부터 왔습니다
+전화가 01912341232로 부터 왔습니다
+전화가 01912341233로 부터 왔습니다
+전화가 01912341234로 부터 왔습니다
+전화가 01912341235로 부터 왔습니다
+전화가 01912341236로 부터 왔습니다
+전화가 01912341237로 부터 왔습니다
+전화가 01912341238로 부터 왔습니다
+전화가 01912341239로 부터 왔습니다
+Entry:
+{"fromNumber":"01012341230","toNumber":"01011112222"}
+{"fromNumber":"01012341231","toNumber":"01011112222"}
+{"fromNumber":"01012341232","toNumber":"01011112222"}
+{"fromNumber":"01012341233","toNumber":"01011112222"}
+{"fromNumber":"01012341234","toNumber":"01011112222"}
+{"fromNumber":"01012341235","toNumber":"01011112222"}
+{"fromNumber":"01012341236","toNumber":"01011112222"}
+{"fromNumber":"01012341237","toNumber":"01011112222"}
+{"fromNumber":"01012341238","toNumber":"01011112222"}
+{"fromNumber":"01012341239","toNumber":"01011112222"}
+{"fromNumber":"01912341230","toNumber":"01011112222"}
+{"fromNumber":"01912341231","toNumber":"01011112222"}
+{"fromNumber":"01912341232","toNumber":"01011112222"}
+{"fromNumber":"01912341233","toNumber":"01011112222"}
+{"fromNumber":"01912341234","toNumber":"01011112222"}
+{"fromNumber":"01912341235","toNumber":"01011112222"}
+{"fromNumber":"01912341236","toNumber":"01011112222"}
+{"fromNumber":"01912341237","toNumber":"01011112222"}
+{"fromNumber":"01912341238","toNumber":"01011112222"}
+{"fromNumber":"01912341239","toNumber":"01011112222"}
+Success
