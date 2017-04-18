@@ -1,5 +1,8 @@
 package com.oop.container;
-
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Collection;
 import java.util.Date;
 import java.util.NavigableSet;
 
@@ -14,7 +17,12 @@ public class PersonContainer {
 	
 	private Integer maxId;
 	
-	PersonContainer () {
+	public Iterator<Entry<String, Collection<Person>>> it_name = keyNickname.asMap().entrySet().iterator();
+	public Iterator<Entry<String, Collection<Person>>> it_num = keyPhoneNumber.asMap().entrySet().iterator();
+	public Iterator<Entry<Date, Collection<Person>>> it_date = keyRecent.asMap().entrySet().iterator();
+	public Iterator<Entry<Integer, Collection<Person>>> it_Id = keyId.asMap().entrySet().iterator();
+	
+	public PersonContainer () {
 		maxId = 0;
 		keyId          = TreeMultimap.create(Ordering.natural(), new PersonComparator());
 		keyNickname    = TreeMultimap.create(Ordering.natural(), new PersonComparator());
