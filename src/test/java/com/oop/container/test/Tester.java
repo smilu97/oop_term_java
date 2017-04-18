@@ -17,6 +17,7 @@ public class Tester {
 		phone = null;
 	}
 	public void runTest() {
+		// Main runner
 		phone = new Phone();
 		try {
 			System.out.println("TEST1 Start**********************************************************");
