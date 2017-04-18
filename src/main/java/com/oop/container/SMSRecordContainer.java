@@ -1,11 +1,12 @@
 package com.oop.container;
 
+import java.util.Iterator;
 import java.util.NavigableSet;
 
 import com.google.common.collect.Ordering;
 import com.google.common.collect.TreeMultimap;
 
-public class SMSRecordContainer {
+public class SMSRecordContainer implements Iterable<Integer>{
 	private TreeMultimap<Integer, SMSRecord> keyId;
 	private TreeMultimap<String,  SMSRecord> keyFromNumber;
 	private TreeMultimap<String,  SMSRecord> keyToNumber;
@@ -55,4 +56,9 @@ public class SMSRecordContainer {
 	public NavigableSet<SMSRecord> findByToNumber(String _toNumber) {
 		return keyToNumber.get(_toNumber);
 	}
+	@Override
+	public Iterator<Integer> iterator() {
+		return keyId.keySet().iterator();
+	}
+	
 }

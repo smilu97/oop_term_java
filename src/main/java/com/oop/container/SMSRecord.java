@@ -1,10 +1,18 @@
 package com.oop.container;
 
+import org.json.simple.JSONObject;
+
 public class SMSRecord {
 	Integer id;
 	String fromNumber;
 	String toNumber;
 	String content;
+	public SMSRecord(String _fromNumber, String _toNumber, String _content) {
+		id = -1;
+		fromNumber = _fromNumber;
+		toNumber = _toNumber;
+		content = _content;
+	}
 	public Integer getId() {
 		return id;
 	}
@@ -28,5 +36,12 @@ public class SMSRecord {
 	}
 	protected void setContent(String content) {
 		this.content = content;
+	}
+	public JSONObject toJSONObject() {
+		JSONObject res = new JSONObject();
+		res.put("fromNumber", fromNumber);
+		res.put("toNumber", toNumber);
+		res.put("content", content);
+		return res;
 	}
 }

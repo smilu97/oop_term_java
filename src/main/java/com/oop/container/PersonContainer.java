@@ -9,7 +9,7 @@ import java.util.NavigableSet;
 import com.google.common.collect.Ordering;
 import com.google.common.collect.TreeMultimap;
 
-public class PersonContainer {
+public class PersonContainer implements Iterable<Integer> {
 	private TreeMultimap<Integer, Person> keyId;
 	private TreeMultimap<String,  Person> keyNickname;
 	private TreeMultimap<String,  Person> keyPhoneNumber;
@@ -112,5 +112,9 @@ public class PersonContainer {
 	}
 	public NavigableSet<Person> findByPhoneNumber(String _phoneNumber) {
 		return keyPhoneNumber.get(_phoneNumber);
+	}
+	@Override
+	public Iterator<Integer> iterator() {
+		return keyId.keySet().iterator();
 	}
 }

@@ -2,6 +2,8 @@ package com.oop.container;
 
 import java.util.*;
 
+import org.json.simple.JSONObject;
+
 public class Person {
 	Integer id;
 	String nickname;
@@ -9,8 +11,10 @@ public class Person {
 	Date recent;
 	
 	public Person(String nickname_, String phoneNumber_) {
+		id = -1;
 		nickname = nickname_;
 		phoneNumber = phoneNumber_;
+		recent = new Date();
 	}
 	public Integer getId() {
 		return id;
@@ -36,11 +40,11 @@ public class Person {
 	protected void setRecent(Date recent) {
 		this.recent = recent;
 	}
-	public class PersonComparator implements Comparator<Person> {
-		@Override
-		public int compare(Person o1, Person o2) {
-			if (o1.getId() < o2.getId()) return 1;
-			return 0;
-		}
+	public JSONObject toJSONObject() {
+		JSONObject res = new JSONObject();
+		res.put("nickname", nickname);
+		res.put("phoneNumber", phoneNumber);
+		res.put("recent", recent.toString());
+		return res;
 	}
 }
