@@ -1,7 +1,13 @@
 package com.oop.container;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 public class Phone {
 	public CallRecordContainer callContainer;
@@ -33,5 +39,38 @@ public class Phone {
 		root.put("person", personArray);
 		root.put("sms", smsArray);
 		return root.toJSONString();
+	}
+	public void saveToJSONFile(String path) throws IOException {
+		String JSONString = toJSONString();
+		FileWriter writer = new FileWriter(path);
+		writer.write(JSONString);
+		writer.close();
+	}
+	public void loadFromJSONFile(String path) throws IOException, ParseException {
+		FileReader reader = new FileReader(path);
+		JSONParser parser = new JSONParser();
+		JSONObject root = (JSONObject)parser.parse(reader);
+		JSONArray callArray   = (JSONArray)root.get("call");
+		JSONArray personArray = (JSONArray)root.get("person");
+		JSONArray smsArray    = (JSONArray)root.get("sms");
+		callContainer   = new CallRecordContainer();
+		personContainer = new PersonContainer();
+		smsContainer    = new SMSRecordContainer();
+		for(Object obj: callArray) {
+			JSONObject call = (JSONObject)obj;
+			CallRecord unit = new CallRecord((String)call.get("fromNumber"), (String)call.get("toNumber"));
+			callContainer.add(unit);
+		}
+		for(Object obj: personArray) {
+			JSONObject person = (JSONObject)obj;
+			Person unit = new Person((String)person.get("nickname"), (String)person.get("phoneNumber"));
+			personContainer.add(unit);
+		}
+		for(Object obj: smsArray) {
+			JSONObject sms = (JSONObject)obj;
+			SMSRecord unit = new SMSRecord((String)sms.get("fromNumber"), (String)sms.get("toNumber"),
+					(String)sms.get("content"));
+			smsContainer.add(unit);
+		}
 	}
 }

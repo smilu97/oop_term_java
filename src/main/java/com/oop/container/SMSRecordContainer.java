@@ -60,5 +60,10 @@ public class SMSRecordContainer implements Iterable<Integer>{
 	public Iterator<Integer> iterator() {
 		return keyId.keySet().iterator();
 	}
-	
+	public Iterator<String> fromNumberIterator() {
+		return keyFromNumber.keySet().iterator();
+	}
+	public Iterator<String> toNumberIterator() {
+		return keyToNumber.keySet().iterator();
+	}
 }

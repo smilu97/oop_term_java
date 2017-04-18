@@ -17,11 +17,6 @@ public class PersonContainer implements Iterable<Integer> {
 	
 	private Integer maxId;
 	
-	public Iterator<Entry<String, Collection<Person>>> it_name = keyNickname.asMap().entrySet().iterator();
-	public Iterator<Entry<String, Collection<Person>>> it_num = keyPhoneNumber.asMap().entrySet().iterator();
-	public Iterator<Entry<Date, Collection<Person>>> it_date = keyRecent.asMap().entrySet().iterator();
-	public Iterator<Entry<Integer, Collection<Person>>> it_Id = keyId.asMap().entrySet().iterator();
-	
 	public PersonContainer () {
 		maxId = 0;
 		keyId          = TreeMultimap.create(Ordering.natural(), new PersonComparator());
@@ -116,5 +111,14 @@ public class PersonContainer implements Iterable<Integer> {
 	@Override
 	public Iterator<Integer> iterator() {
 		return keyId.keySet().iterator();
+	}
+	public Iterator<String> nicknameIterator() {
+		return keyNickname.keySet().iterator();
+	}
+	public Iterator<String> phoneNumberIterator() {
+		return keyPhoneNumber.keySet().iterator();
+	}
+	public Iterator<Date> recentIterator() {
+		return keyRecent.keySet().iterator();
 	}
 }
