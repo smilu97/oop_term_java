@@ -43,6 +43,15 @@ JSON Format으로 변환하여 저장합니다. org.json 패키지를 사용합�
 
 * [SRS](SRS.md)
 
+## Reference
+
+* [Reference](Reference.md)
+
+## Testing
+
+* [Testing](TESTING.md)
+* 테스트 코드를 Usage sample로 활용해주세요
+
 ## UML
 
 ![UML](UML.png)
