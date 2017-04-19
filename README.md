@@ -45,4 +45,4 @@ JSON Format으로 변환하여 저장합니다. org.json 패키지를 사용합�
 
 ## UML
 
-![UML](/Users/gim-yeongjin/eclipse/workspace/OOPTerm/UML.png)
+![UML](UML.png)
